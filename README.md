@@ -18,7 +18,7 @@ Make sure you have LibXML and Python development files.  On Ubuntu, run `sudo ap
 
 First, you'll need to provide credentials so that boto can access the AWS API. Options for setting this up are described in the [boto docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html). Ensure that your IAM user has at least the following permissions:
 
-    ```
+```json
     {
         "Version": "2012-10-17",
         "Statement": [
@@ -34,7 +34,7 @@ First, you'll need to provide credentials so that boto can access the AWS API. O
             }
         ]
     }
-    ```
+```
 
 Then:
 
